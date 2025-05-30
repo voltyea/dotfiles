@@ -2,7 +2,7 @@ dconf/
 pulse/
 systemd/
 session/
-./dolphinrc
+dolphinrc
 kde.org/
 yay/
-./fish/fish_variables
+fish/fish_variables
