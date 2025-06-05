@@ -6,8 +6,9 @@ if status is-interactive
 end
 
 function fish_greeting
-
 end
+alias l ls
+alias c clear
 starship init fish | source
 enable_transience
 pokego --no-title --random 1-8
