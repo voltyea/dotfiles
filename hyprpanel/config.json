@@ -1,0 +1,12 @@
+{
+  "bar.customModules.storage.paths": [
+    "/"
+  ],
+  "theme.font.size": "1.2rem",
+  "scalingPriority": "both",
+  "theme.font.name": "Ubuntu Nerd Font",
+  "theme.font.label": "Ubuntu Nerd Font",
+  "theme.osd.scaling": 100,
+  "theme.bar.menus.menu.dashboard.scaling": 60,
+  "theme.bar.scaling": 70
+}
