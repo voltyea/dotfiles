@@ -19,3 +19,5 @@ user-dirs.locale
 xfce4/
 user-dirs.dirs
 user-dirs.locale
+.config/fish/conf.d/
+.config/fish/fish_variables
