@@ -13,7 +13,6 @@ alias cl clear
 starship init fish | source
 enable_transience
 pokego --no-title --random 1-8
-fzf --fish | source
 zoxide init --cmd cd fish | source
 
 fish_add_path /home/volty/.spicetify
