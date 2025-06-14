@@ -17,7 +17,8 @@
   "menus.dashboard.powermenu.confirmation": false,
   "theme.bar.floating": false,
   "theme.bar.location": "top",
-  "wallpaper.image": "/home/volty/wallpapers/Makima_black.png",
+  "wallpaper.image": "",
   "theme.bar.opacity": 0,
-  "theme.bar.menus.opacity": 100
+  "theme.bar.menus.opacity": 100,
+  "theme.bar.menus.menu.dashboard.profile.radius": "125em"
 }
