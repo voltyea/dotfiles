@@ -8,12 +8,12 @@ end
 
 function fish_greeting
 end
+
 set -Ux EDITOR nvim
 alias vim nvim
 alias cl clear
-starship init fish | source
-enable_transience
+oh-my-posh init fish --config $HOME/.config/ohmyposh.toml | source
 pokego --no-title --random 1-8
 zoxide init --cmd cd fish | source
 
-fish_add_path /home/volty/.spicetify
+fish_add_path $HOME/.spicetify
