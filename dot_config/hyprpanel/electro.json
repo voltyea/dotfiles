@@ -1,33 +1,4 @@
 {
-  "bar.customModules.storage.paths": [
-    "/"
-  ],
-  "theme.font.size": "0.9rem",
-  "scalingPriority": "gdk",
-  "theme.font.name": "Ubuntu Nerd Font",
-  "theme.font.label": "Ubuntu Nerd Font",
-  "theme.osd.scaling": 100,
-  "theme.bar.menus.menu.dashboard.scaling": 80,
-  "theme.bar.scaling": 100,
-  "theme.bar.menus.menu.power.scaling": 90,
-  "menus.transition": "crossfade",
-  "theme.osd.location": "bottom",
-  "theme.osd.orientation": "horizontal",
-  "theme.osd.margins": "7px 7px 50px 7px",
-  "menus.dashboard.powermenu.confirmation": false,
-  "theme.bar.floating": true,
-  "theme.bar.location": "top",
-  "wallpaper.image": "",
-  "theme.bar.opacity": 0,
-  "theme.bar.menus.opacity": 100,
-  "theme.bar.menus.menu.dashboard.profile.radius": "125em",
-  "theme.bar.buttons.modules.worldclock.enableBorder": false,
-  "theme.bar.border.location": "none",
-  "theme.bar.buttons.padding_y": "0.2rem",
-  "theme.bar.buttons.radius": "125em",
-  "theme.bar.buttons.padding_x": "0.7rem",
-  "theme.bar.dropdownGap": "2.9em",
-  "theme.bar.buttons.separator.margins": "0.15em",
   "theme.bar.menus.background": "#000000",
   "theme.bar.background": "#000000",
   "theme.bar.buttons.media.icon": "#AA7EEE",
@@ -400,6 +371,5 @@
   "theme.bar.buttons.modules.worldclock.background": "#090909",
   "theme.bar.buttons.modules.worldclock.icon_background": "#AA7EEE",
   "theme.bar.buttons.modules.worldclock.icon": "#AA7EEE",
-  "theme.bar.buttons.modules.worldclock.border": "#AA7EEE",
-  "bar.launcher.icon": ""
+  "theme.bar.buttons.modules.worldclock.border": "#AA7EEE"
 }
