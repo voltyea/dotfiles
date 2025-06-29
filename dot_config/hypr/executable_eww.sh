@@ -1,5 +1,11 @@
 #!/bin/bash
 
 eww daemon
-sleep 2
+
+while ! swww query &>/dev/null; do
+  sleep 0.5
+done
+
+sleep 0.5
+
 eww open clock
