@@ -1,0 +1,36 @@
+
+;day variable
+(defpoll day :interval "60s"
+             `date "+%A"`)
+
+; date variable
+(defpoll date :interval "60s"
+              `date "+%B %d, %Y"`)
+
+; clock widget
+(defwindow clock
+  :monitor 0
+  :geometry (geometry :x "5%"
+                      :y "-5%"
+                      :width "30%"
+                      :anchor "bottom right")
+  :stacking "bg"
+
+  ;Direct layout, no widget
+  (box
+    :orientation "vertical"
+    :halign "end"
+    (label :text day 
+           :class "day-text")
+
+  (box
+    :orientation "vertical"
+    :halign "center"
+    :valign "start"
+    (label :text date
+           :class "date-text"))
+
+   )
+)
+
+
