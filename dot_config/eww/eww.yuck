@@ -7,6 +7,9 @@
 (defpoll date :interval "60s"
               `date "+%B %d, %Y"`)
 
+
+; Windows and widgets
+
 ; clock widget
 (defwindow clock
   :monitor 0
@@ -32,5 +35,3 @@
 
    )
 )
-
-
