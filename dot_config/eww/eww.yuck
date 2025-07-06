@@ -17,7 +17,7 @@
                       :y "-5%"
                       :width "30%"
                       :anchor "bottom right")
-  :stacking "bg"
+  :stacking "bottom"
 
   ;Direct layout, no widget
   (box
