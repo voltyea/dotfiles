@@ -7,31 +7,31 @@
 (defpoll date :interval "60s"
               `date "+%B %d, %Y"`)
 
-
 ; Windows and widgets
 
 ; clock widget
 (defwindow clock
   :monitor 0
-  :geometry (geometry :x "5%"
-                      :y "-5%"
-                      :width "30%"
+  :geometry (geometry :x "8%"
+                      :y "-3%"
+                      :width "40%"
                       :anchor "bottom right")
   :stacking "bottom"
 
-  ;Direct layout, no widget
   (box
     :orientation "vertical"
     :halign "end"
+    
     (label :text day 
            :class "day-text")
-
-  (box
-    :orientation "vertical"
-    :halign "center"
-    :valign "start"
-    (label :text date
-           :class "date-text"))
-
-   )
+    
+    (box
+      :orientation "vertical"
+      :halign "center"
+      :valign "start"
+      
+      (label :text date
+             :class "date-text")
+    )
+  )
 )
