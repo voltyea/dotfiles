@@ -12,7 +12,7 @@
 ; clock widget
 (defwindow clock
   :monitor 0
-  :geometry (geometry :x "8%"
+  :geometry (geometry :x "6%"
                       :y "-3%"
                       :width "40%"
                       :anchor "bottom right")
@@ -20,7 +20,7 @@
 
   (box
     :orientation "vertical"
-    :halign "end"
+    :halign "center"
     
     (label :text day 
            :class "day-text")
