@@ -3,7 +3,7 @@
     "/"
   ],
   "theme.font.size": "0.9rem",
-  "scalingPriority": "gdk",
+  "scalingPriority": "hyprland",
   "theme.font.name": "Ubuntu Nerd Font",
   "theme.font.label": "Ubuntu Nerd Font",
   "theme.osd.scaling": 100,
@@ -404,5 +404,59 @@
   "bar.launcher.icon": "",
   "theme.bar.menus.menu.notifications.scaling": 88,
   "theme.bar.buttons.modules.cava.enableBorder": false,
-  "bar.customModules.cava.showIcon": true
+  "bar.customModules.cava.showIcon": false,
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle",
+        "cava"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "network",
+        "bluetooth",
+        "battery",
+        "systray",
+        "clock",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle",
+        "cava"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle",
+        "cava"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  }
 }
