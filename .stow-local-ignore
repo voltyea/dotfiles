@@ -29,3 +29,4 @@ _darcs
 ./.config/gtk-3.0/settings.ini
 ./.config/nwg-look/config
 ./.config/xsettingsd/xsettingsd.conf
+./.rsyncignore
