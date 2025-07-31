@@ -22,11 +22,11 @@ _darcs
 ^/LICENSE.*
 ^/COPYING
 
-./.gtkrc-2.0
-./.config/hypr/hyprpaper.conf
-./.config/electron-flags.conf
-./.config/spotify-flags.conf
-./.config/gtk-3.0/settings.ini
-./.config/nwg-look/config
-./.config/xsettingsd/xsettingsd.conf
-./.rsyncignore
+.gtkrc-2.0
+.config/hypr/hyprpaper.conf
+.config/electron-flags.conf
+.config/spotify-flags.conf
+.config/gtk-3.0/settings.ini
+.config/nwg-look/config
+.config/xsettingsd/xsettingsd.conf
+.rsyncignore
