@@ -458,5 +458,6 @@
         "notifications"
       ]
     }
-  }
+  },
+  "theme.bar.menus.menu.clock.scaling": 85
 }
