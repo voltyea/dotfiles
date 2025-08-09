@@ -401,7 +401,7 @@
   "theme.bar.buttons.modules.worldclock.icon_background": "#AA7EEE",
   "theme.bar.buttons.modules.worldclock.icon": "#AA7EEE",
   "theme.bar.buttons.modules.worldclock.border": "#AA7EEE",
-  "bar.launcher.icon": "",
+  "bar.launcher.icon": "",
   "theme.bar.menus.menu.notifications.scaling": 88,
   "theme.bar.buttons.modules.cava.enableBorder": false,
   "bar.customModules.cava.showIcon": false,
